@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878093FD4BC63BC40E61DE94 /* Pods_Newsapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1053DDA5E2130342DD811AE2 /* Pods_Newsapp.framework */; };
 		A4455A362A8BB90E001A8D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4455A352A8BB90E001A8D72 /* AppDelegate.swift */; };
 		A4455A382A8BB90E001A8D72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4455A372A8BB90E001A8D72 /* SceneDelegate.swift */; };
 		A4455A3D2A8BB90E001A8D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4455A3B2A8BB90E001A8D72 /* Main.storyboard */; };
 		A4455A3F2A8BB910001A8D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4455A3E2A8BB910001A8D72 /* Assets.xcassets */; };
 		A4455A422A8BB910001A8D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4455A402A8BB910001A8D72 /* LaunchScreen.storyboard */; };
 		A4455A4E2A8BC439001A8D72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4455A4D2A8BC439001A8D72 /* LoginViewController.swift */; };
+		A4EF95C22A8E42950073E003 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95AF2A8E42940073E003 /* Poppins-ExtraLight.ttf */; };
+		A4EF95C32A8E42950073E003 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B02A8E42940073E003 /* Poppins-ThinItalic.ttf */; };
+		A4EF95C42A8E42950073E003 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B12A8E42940073E003 /* Poppins-ExtraLightItalic.ttf */; };
+		A4EF95C52A8E42950073E003 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B22A8E42940073E003 /* Poppins-BoldItalic.ttf */; };
+		A4EF95C62A8E42950073E003 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B32A8E42940073E003 /* Poppins-Light.ttf */; };
+		A4EF95C72A8E42950073E003 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B42A8E42940073E003 /* Poppins-Medium.ttf */; };
+		A4EF95C82A8E42950073E003 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B52A8E42940073E003 /* Poppins-SemiBoldItalic.ttf */; };
+		A4EF95C92A8E42950073E003 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B62A8E42940073E003 /* Poppins-ExtraBoldItalic.ttf */; };
+		A4EF95CA2A8E42950073E003 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B72A8E42940073E003 /* Poppins-ExtraBold.ttf */; };
+		A4EF95CB2A8E42950073E003 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B82A8E42940073E003 /* Poppins-BlackItalic.ttf */; };
+		A4EF95CC2A8E42950073E003 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95B92A8E42940073E003 /* OFL.txt */; };
+		A4EF95CD2A8E42950073E003 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95BA2A8E42940073E003 /* Poppins-Regular.ttf */; };
+		A4EF95CE2A8E42950073E003 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95BB2A8E42940073E003 /* Poppins-LightItalic.ttf */; };
+		A4EF95CF2A8E42950073E003 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95BC2A8E42940073E003 /* Poppins-Bold.ttf */; };
+		A4EF95D02A8E42950073E003 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95BD2A8E42940073E003 /* Poppins-Black.ttf */; };
+		A4EF95D12A8E42950073E003 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95BE2A8E42940073E003 /* Poppins-Thin.ttf */; };
+		A4EF95D22A8E42950073E003 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95BF2A8E42940073E003 /* Poppins-SemiBold.ttf */; };
+		A4EF95D32A8E42950073E003 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95C02A8E42940073E003 /* Poppins-Italic.ttf */; };
+		A4EF95D42A8E42950073E003 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EF95C12A8E42940073E003 /* Poppins-MediumItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06CC53431F19BCCAD5278B6E /* Pods-Newsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsapp.release.xcconfig"; path = "Target Support Files/Pods-Newsapp/Pods-Newsapp.release.xcconfig"; sourceTree = "<group>"; };
+		1053DDA5E2130342DD811AE2 /* Pods_Newsapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Newsapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE72F553AD03F8792C216BD /* Pods-Newsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsapp.debug.xcconfig"; path = "Target Support Files/Pods-Newsapp/Pods-Newsapp.debug.xcconfig"; sourceTree = "<group>"; };
 		A4455A322A8BB90E001A8D72 /* Newsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4455A352A8BB90E001A8D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4455A372A8BB90E001A8D72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,25 @@
 		A4455A412A8BB910001A8D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4455A432A8BB910001A8D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4455A4D2A8BC439001A8D72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4EF95AF2A8E42940073E003 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A4EF95B02A8E42940073E003 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95B12A8E42940073E003 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95B22A8E42940073E003 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95B32A8E42940073E003 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		A4EF95B42A8E42940073E003 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		A4EF95B52A8E42940073E003 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95B62A8E42940073E003 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95B72A8E42940073E003 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A4EF95B82A8E42940073E003 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95B92A8E42940073E003 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		A4EF95BA2A8E42940073E003 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A4EF95BB2A8E42940073E003 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		A4EF95BC2A8E42940073E003 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A4EF95BD2A8E42940073E003 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		A4EF95BE2A8E42940073E003 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		A4EF95BF2A8E42940073E003 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		A4EF95C02A8E42940073E003 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		A4EF95C12A8E42940073E003 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878093FD4BC63BC40E61DE94 /* Pods_Newsapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472EA7165244819E15879073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE72F553AD03F8792C216BD /* Pods-Newsapp.debug.xcconfig */,
+				06CC53431F19BCCAD5278B6E /* Pods-Newsapp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4735E49513E8DED6A98FB68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1053DDA5E2130342DD811AE2 /* Pods_Newsapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4455A292A8BB90E001A8D72 = {
 			isa = PBXGroup;
 			children = (
 				A4455A342A8BB90E001A8D72 /* Newsapp */,
 				A4455A332A8BB90E001A8D72 /* Products */,
+				472EA7165244819E15879073 /* Pods */,
+				4735E49513E8DED6A98FB68E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +119,7 @@
 		A4455A342A8BB90E001A8D72 /* Newsapp */ = {
 			isa = PBXGroup;
 			children = (
+				A4EF95AE2A8E42940073E003 /* Poppins */,
 				A4455A352A8BB90E001A8D72 /* AppDelegate.swift */,
 				A4455A372A8BB90E001A8D72 /* SceneDelegate.swift */,
 				A4455A3B2A8BB90E001A8D72 /* Main.storyboard */,
@@ -67,6 +131,32 @@
 			path = Newsapp;
 			sourceTree = "<group>";
 		};
+		A4EF95AE2A8E42940073E003 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				A4EF95AF2A8E42940073E003 /* Poppins-ExtraLight.ttf */,
+				A4EF95B02A8E42940073E003 /* Poppins-ThinItalic.ttf */,
+				A4EF95B12A8E42940073E003 /* Poppins-ExtraLightItalic.ttf */,
+				A4EF95B22A8E42940073E003 /* Poppins-BoldItalic.ttf */,
+				A4EF95B32A8E42940073E003 /* Poppins-Light.ttf */,
+				A4EF95B42A8E42940073E003 /* Poppins-Medium.ttf */,
+				A4EF95B52A8E42940073E003 /* Poppins-SemiBoldItalic.ttf */,
+				A4EF95B62A8E42940073E003 /* Poppins-ExtraBoldItalic.ttf */,
+				A4EF95B72A8E42940073E003 /* Poppins-ExtraBold.ttf */,
+				A4EF95B82A8E42940073E003 /* Poppins-BlackItalic.ttf */,
+				A4EF95B92A8E42940073E003 /* OFL.txt */,
+				A4EF95BA2A8E42940073E003 /* Poppins-Regular.ttf */,
+				A4EF95BB2A8E42940073E003 /* Poppins-LightItalic.ttf */,
+				A4EF95BC2A8E42940073E003 /* Poppins-Bold.ttf */,
+				A4EF95BD2A8E42940073E003 /* Poppins-Black.ttf */,
+				A4EF95BE2A8E42940073E003 /* Poppins-Thin.ttf */,
+				A4EF95BF2A8E42940073E003 /* Poppins-SemiBold.ttf */,
+				A4EF95C02A8E42940073E003 /* Poppins-Italic.ttf */,
+				A4EF95C12A8E42940073E003 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4455A462A8BB910001A8D72 /* Build configuration list for PBXNativeTarget "Newsapp" */;
 			buildPhases = (
+				4A31724B480FF11D1B0DB966 /* [CP] Check Pods Manifest.lock */,
 				A4455A2E2A8BB90E001A8D72 /* Sources */,
 				A4455A2F2A8BB90E001A8D72 /* Frameworks */,
 				A4455A302A8BB90E001A8D72 /* Resources */,
+				EBD79A93C7A9D1E549EF45E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +217,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EF95D12A8E42950073E003 /* Poppins-Thin.ttf in Resources */,
+				A4EF95D42A8E42950073E003 /* Poppins-MediumItalic.ttf in Resources */,
+				A4EF95CC2A8E42950073E003 /* OFL.txt in Resources */,
+				A4EF95C42A8E42950073E003 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				A4EF95CB2A8E42950073E003 /* Poppins-BlackItalic.ttf in Resources */,
+				A4EF95C22A8E42950073E003 /* Poppins-ExtraLight.ttf in Resources */,
+				A4EF95D22A8E42950073E003 /* Poppins-SemiBold.ttf in Resources */,
+				A4EF95C52A8E42950073E003 /* Poppins-BoldItalic.ttf in Resources */,
+				A4EF95C62A8E42950073E003 /* Poppins-Light.ttf in Resources */,
+				A4EF95D02A8E42950073E003 /* Poppins-Black.ttf in Resources */,
+				A4EF95D32A8E42950073E003 /* Poppins-Italic.ttf in Resources */,
+				A4EF95CA2A8E42950073E003 /* Poppins-ExtraBold.ttf in Resources */,
+				A4EF95CE2A8E42950073E003 /* Poppins-LightItalic.ttf in Resources */,
 				A4455A422A8BB910001A8D72 /* LaunchScreen.storyboard in Resources */,
+				A4EF95C82A8E42950073E003 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				A4EF95CD2A8E42950073E003 /* Poppins-Regular.ttf in Resources */,
+				A4EF95C92A8E42950073E003 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				A4EF95CF2A8E42950073E003 /* Poppins-Bold.ttf in Resources */,
+				A4EF95C32A8E42950073E003 /* Poppins-ThinItalic.ttf in Resources */,
+				A4EF95C72A8E42950073E003 /* Poppins-Medium.ttf in Resources */,
 				A4455A3F2A8BB910001A8D72 /* Assets.xcassets in Resources */,
 				A4455A3D2A8BB90E001A8D72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A31724B480FF11D1B0DB966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Newsapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD79A93C7A9D1E549EF45E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Newsapp/Pods-Newsapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Newsapp/Pods-Newsapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Newsapp/Pods-Newsapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4455A2E2A8BB90E001A8D72 /* Sources */ = {
@@ -282,6 +435,7 @@
 		};
 		A4455A472A8BB910001A8D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE72F553AD03F8792C216BD /* Pods-Newsapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +465,7 @@
 		};
 		A4455A482A8BB910001A8D72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CC53431F19BCCAD5278B6E /* Pods-Newsapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +479,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

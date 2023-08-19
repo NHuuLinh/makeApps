@@ -3,6 +3,7 @@
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <accessibilityOverrides/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -426,12 +427,15 @@ been missed</string>
                     <connections>
                         <outlet property="clearBtn" destination="hPs-de-jql" id="MkT-bU-rT8"/>
                         <outlet property="emailTF" destination="gJM-tU-mjn" id="gbx-gu-heV"/>
+                        <outlet property="errorPW" destination="cHD-Eq-aR6" id="sfP-tS-Pjt"/>
                         <outlet property="errorView" destination="WO2-4K-tRK" id="90t-1r-Odx"/>
+                        <outlet property="passWord" destination="A3t-Uu-nfM" id="jjW-yl-Aa5"/>
+                        <outlet property="passworderrorIcon" destination="2xO-jX-1EK" id="wlt-dZ-Zig"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQP-0D-UCM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.52173913043481" y="-116.51785714285714"/>
+            <point key="canvasLocation" x="-346" y="-117"/>
         </scene>
     </scenes>
     <resources>

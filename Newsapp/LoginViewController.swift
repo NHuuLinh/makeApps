@@ -23,19 +23,6 @@ class LoginViewController: UIViewController {
         emailTF.addTarget(self, action: #selector(emailTextFieldDidChange), for: .editingChanged)
         callAPI()
     }
-    private var emailErrorMessage : String? {
-        didSet {
-            
-        }
-    }
-//    private var passWordError : String? {
-//        didSet {
-//            let errorPW = passWordError != nil
-//            if errorPW = "" {
-//                pas
-//            }
-//        }
-//    }
     func callAPI(){
         let domain = "http://ec2-52-195-148-148.ap-northeast-1.compute.amazonaws.com/login"
         AF.request(domain,method: HTTPMethod.post, parameters: ["username": emailTF.text, "password": passWord.text], encoder: JSONParameterEncoder.default)
@@ -58,18 +45,6 @@ class LoginViewController: UIViewController {
                 }
                 }
             }
-//        AF.request("http://ec2-52-195-148-148.ap-northeast-1.compute.amazonaws.com/login", method: .post, parameters: [
-//            "username": emailTF,
-//            "password": passWord
-//        ], encoder: JSONParameterEncoder.default)
-//        .validate(statusCode: 200..<299)
-//        .responseData { afDataResponse in
-//            self.showLoading(isShow: false)
-//            switch afDataResponse.result {
-//                case .success(let data):}
-//        }
-        
-    
     private func setupView(){
         errorView.isHidden = true
         clearBtn.isHidden = true

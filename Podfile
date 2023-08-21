@@ -7,6 +7,7 @@ target 'Newsapp' do
 
   # Pods for Newsapp
   pod 'Alamofire'
+  pod 'ObjectMapper'
 
 end
 

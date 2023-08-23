@@ -10,9 +10,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Poppins-ExtraLight.tff</string>
-		<string></string>
-		<string>pop</string>
-		<string></string>
+		<string>Poppins-ExtraLightItalic.tff</string>
+		<string>Poppins-ThinItalic.ttf</string>
 		<string></string>
 		<string></string>
 	</array>
